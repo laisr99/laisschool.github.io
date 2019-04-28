@@ -1,46 +1,46 @@
-
-
 body {
-    background-color: lightblue;
-    position: relative;
+  background-color: lightblue;
+  position: relative;
 }
-  
-  h1 {
-    color: gray;
-    margin-left: 10px;
-  }
 
-
+h1 {
+  color: gray;
+  display: block;
+  font-size: 5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 10px;
+  margin-right: 0;
+  font-weight: bold;
+}
 
 .header {
-   /* position: fixed; */
-    background-color: black;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
+  /* position: fixed; */
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
 
 /* Style the top navigation bar */
 .topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    text-decoration: none;
-  }
-  
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  overflow: hidden;
+  background-color: #333;
+}
 
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+  text-decoration: none;
+  /* border: 2px solid white; */
+}
 
-
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
